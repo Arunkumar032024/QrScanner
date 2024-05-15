@@ -6,3 +6,91 @@
     font-family: "Poetsen One", sans-serif;
 }
 
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #e6ff94;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e6ff94;
+}
+
+.container{
+    width: 95%;
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #40a578;
+    box-shadow: 5px 5px 0px 0px #006769;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 1rem;
+}
+.input-box{
+    width: 100%;
+    text-align: center;
+}
+.input-box i{
+    font-size: 5rem;
+    margin: 1rem auto;
+    cursor: pointer;
+}
+.result-box{
+    
+    margin-top: 1rem ;
+    padding-top: 2rem;
+    text-align: center;
+}
+.result-box p{
+    border: 1px solid #e6ff94;
+    padding: 10px;
+    text-align: left;
+    border-radius: 3px;
+}
+.result-box .buttons{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.buttons button{
+    border: 1px solid #e6ff94;
+    border-radius: 3px;
+    outline: none;
+    background-color: transparent;
+    color: #e6ff94;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+button i{
+    margin-right: 10px;
+}
+button:hover{
+    color: #006769;
+    background-color: #e6ff94;
+}
+.toast-notification{
+    position: fixed;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    background-color: #006769;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+.error-box{
+    width: 100%;
+    text-align: center;
+    margin: 2rem auto;
+    color: red;
+}
+.hide{
+    display: none;
+}
