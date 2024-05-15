@@ -5,3 +5,5 @@ Creating a QR Scanner app with HTML, CSS, and JavaScript involves integrating ca
 Basic file setup
 <br>
 Add user interface
+<br>
+Add upload activity
