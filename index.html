@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,12 +12,15 @@
     <!-- stylesheet -->
     <link rel="stylesheet" href="app.css">
 </head>
+
 <body>
     <div class="container">
         <h1>Qr Scanner</h1>
         <div class="input-box">
-            <label for="qr-code"><i class="fa-solid fa-cloud-arrow-up"></i></label>
-            <input type="file" id="qr-code" hidden>
+            <form action="#">
+                <label for="qr-code"><i class="fa-solid fa-cloud-arrow-up"></i></label>
+                <input type="file" id="qr-code" hidden />
+            </form>
             <p>Upload any Qr code to scan.</p>
         </div>
         <div class="error-box hide">Lorem ipsum dolor sit amet.</div>
@@ -33,4 +37,5 @@
     <!-- add js file -->
     <script src="app.js"></script>
 </body>
+
 </html>
