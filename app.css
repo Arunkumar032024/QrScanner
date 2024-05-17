@@ -78,18 +78,28 @@ button:hover{
 }
 .toast-notification{
     position: fixed;
-    bottom: 10%;
+    bottom: -10%;
     left: 50%;
     transform: translate(-50%, -10%);
     background-color: #006769;
     padding: 8px 15px;
     border-radius: 5px;
+    animation: popup 1s linear 0s;
 }
-.error-box{
-    width: 100%;
-    text-align: center;
-    margin: 2rem auto;
-    color: red;
+@keyframes popup {
+    0%{
+        bottom: 0%;
+        opacity: 0;
+    }
+    50%{
+        bottom: 5%;
+        opacity: 0.5;
+    }
+    100%{
+        bottom: 10%;
+        opacity: 1;
+    }
+    
 }
 .hide{
     display: none;

@@ -7,3 +7,5 @@ Basic file setup
 Add user interface
 <br>
 Add upload activity
+<br>
+Complete Qr Scanner App
